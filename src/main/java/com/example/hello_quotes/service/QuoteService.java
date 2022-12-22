@@ -36,14 +36,4 @@ public class QuoteService {
         quoteRepository.deleteById(id);
     }
 
-/*
-    public Patient updatePatient(Long id, Optional<String> name, Optional<LocalDate> date_of_birth, Optional<Employee> admitted_by) {
-        var patientToUpdate = patientRepository.findById(id).orElseThrow();
-        name.ifPresent(patientToUpdate::setName);
-        date_of_birth.ifPresent(patientToUpdate::setDate);
-        admitted_by.ifPresent(patientToUpdate::setEmployee);
-        return patientRepository.save(patientToUpdate);
-    }*/
-
-
 }
